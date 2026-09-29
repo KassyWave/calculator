@@ -30,3 +30,12 @@ def power(a, b):
         Пример: power(2, 3) -> 8
     """
     return a ** b
+
+def square_root(a: float) -> float:
+    """Возвращает квадратный корень числа a.
+    Пример:square_root(9) -> 3.0
+    Исключение: ValueError: если a < 0.
+    """
+    if a < 0:
+        raise ValueError("Корень из отрицательного числа не определён.")
+    return a ** 0.5
