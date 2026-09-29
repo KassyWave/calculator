@@ -9,3 +9,9 @@ def subtract(a, b):
         Пример: subtract(5, 3) -> 2
     """
     return a - b
+
+def multiply(a, b):
+    """Возвращает произведение двух чисел.
+        Пример: multiply(4, 5) -> 20
+    """
+    return a * b
