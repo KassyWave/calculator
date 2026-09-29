@@ -15,3 +15,12 @@ def multiply(a, b):
         Пример: multiply(4, 5) -> 20
     """
     return a * b
+
+def divide(a, b):
+    """Возвращает частное двух чисел.
+        Пример: divide(10, 2) -> 5.0
+        Исключение: ValueError: если b == 0.
+    """
+    if b == 0:
+        raise ValueError("Деление на ноль невозможно.")
+    return a / b
