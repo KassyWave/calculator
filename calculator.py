@@ -24,3 +24,9 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Деление на ноль невозможно.")
     return a / b
+
+def power(a, b):
+    """Возвращает число a в степени b.
+        Пример: power(2, 3) -> 8
+    """
+    return a ** b
